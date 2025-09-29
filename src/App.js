@@ -60,6 +60,30 @@ export default function App() {
       </div>
 
     </div>
-  )
+  );
 
+};
+
+const styles = {
+  container: {
+    maxWidth: "600px",
+    margins: "50px auto",
+    margin: "20px",
+    textAlign: "center",
+    fontFamily: "Arial, sans-serif",
+  },
+  inputdh:{
+    padding: "10px",
+    width: "39%",
+    marginRight: "5px",
+    borderRadius: "10px"
+  },
+  input: {
+    padding: "10px",
+    width: "70%",
+    marginRight: "5px",
+  },
+  button: {
+    padding: "10px 15px",
+  }
 }
