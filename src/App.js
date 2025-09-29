@@ -55,6 +55,7 @@ export default function App() {
         <button onClick={addTask}>Adicionar</button>
       </div>
 
+      
       <div>
         <TodoList todos={todos} removeTask={removeTask} />
       </div>
@@ -84,6 +85,7 @@ const styles = {
     marginRight: "5px",
   },
   button: {
-    padding: "10px 15px",
+    padding: "10px",
+    cursor: "pointer",
   }
 }
